@@ -14,6 +14,26 @@ public class DataRestController {
 	public String getDataFromRedis() {
 		System.out.println("getDataFromRedis");
 			int i = 10 / 0;
+
+ 
+ 		System.out.println("getDataFromRedis1");
+ 		System.out.println("getDataFromRedis1");
+		 System.out.println("getDataFromRedis1");
+		 System.out.println("getDataFromRedis1");
+		 System.out.println("getDataFromRedis1");
+		 System.out.println("getDataFromRedis1");
+		 System.out.println("getDataFromRedis1");
+ 
+
+
+
+
+
+
+
+
+
+		
 	
 		return "data from redis cache";
 	}
