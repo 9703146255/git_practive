@@ -6,15 +6,12 @@ import org.springframework.web.bind.annotation.RestController;
 import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 
 @RestController
-@RequestMapping("/data")
 public class DataRestController {
 
 	@GetMapping("/data")
 	@CircuitBreaker(fallbackMethod = "getDataFromDB",name = "thirumala")
 	public String getDataFromRedis() {
 		System.out.println("getDataFromRedis");
-		
-		
 			int i = 10 / 0;
 	
 		return "data from redis cache";
