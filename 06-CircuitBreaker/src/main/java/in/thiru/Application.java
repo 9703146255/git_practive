@@ -3,7 +3,7 @@ package in.thiru;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication()
 public class Application implements CommandlineRunner {
 
 	public static void main(String[] args) {

@@ -12,15 +12,40 @@ public class DataRestController {
 	@GetMapping("/data")
 	@CircuitBreaker(fallbackMethod = "getDataFromDB",name = "thirumala")
 	public String getDataFromRedis() {
-		System.out.println("getDataFromRedis");
+System.out.println("getDataFromRedis2");
+System.out.println("getDataFromRedis2");
+System.out.println("getDataFromRedis2");
+System.out.println("getDataFromRedis2");
+System.out.println("getDataFromRedis2");
+System.out.println("getDataFromRedis2");
+System.out.println("getDataFromRedis2");
 			int i = 10 / 0;
 	
 		return "data from redis cache";
 	}
 
+@GetMapping("/get")
 	public String getDataFromDB(Throwable th) {
+
+System.out.println("getDataFromRedis2");
+System.out.println("getDataFromRedis2");
+System.out.println("getDataFromRedis2");
+System.out.println("getDataFromRedis2");
+System.out.println("getDataFromRedis2");
+System.out.println("getDataFromRedis2");
+System.out.println("getDataFromRedis2");
+System.out.println("getDataFromRedis2");
+System.out.println("getDataFromRedis2");
+System.out.println("getDataFromRedis2");
+System.out.println("getDataFromRedis2");
+System.out.println("getDataFromRedis2");
+System.out.println("getDataFromRedis2");
+System.out.println("getDataFromRedis2");
+System.out.println("getDataFromRedis2");
 		
 		System.out.println("getDataFromDB");
+
+int i = 10 / 0;
 		return "data from db";
 	}
 
