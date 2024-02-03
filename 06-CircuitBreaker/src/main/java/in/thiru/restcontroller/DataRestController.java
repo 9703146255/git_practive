@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 
 @RestController
+@RequestMapping("/num1")
 public class DataRestController {
 
 	@GetMapping("/data")
